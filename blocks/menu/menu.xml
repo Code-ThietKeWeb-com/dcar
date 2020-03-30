@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<cmsinstall type="block">
+
+	<name>menu</name>
+	<creationDate>29.12.2007</creationDate>
+	<author>Thai son</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>thaison@trust.vn</authorEmail>
+	<authorUrl>www.thaison32.info</authorUrl>
+	<version>1.0</version>
+	
+	<title>QUáº¢N LÃ MENU</title>
+	<files>
+		<filename>block_menu.php</filename>
+	</files>
+
+	<folder>
+		<foldername>language</foldername>
+	</folder>
+	
+	<install>
+		<queries>
+			<query>
+				INSERT INTO `lang_phrase` (	`phrase_id` ,	`type` ,`fieldname` ,	`title` 	)
+				VALUES (	NULL , 'blocks', 'menu', 'Menu chinh');
+			</query>
+		</queries>
+	</install>
+	
+	<uninstall>
+		<queries>
+			<query>
+				DELETE FROM `lang_phrase` WHERE fieldname='menu' ;
+			</query>
+		</queries>
+	</uninstall>
+
+	
+</cmsinstall>

@@ -1,0 +1,27 @@
+Options +FollowSymlinks
+RewriteEngine on
+Options -Indexes
+RewriteCond %{HTTP_HOST} ^thietkeweb.com [NC]
+RewriteRule ^(.*)$ http://www.thietkeweb.com/$1 [L,R=301]
+
+RewriteRule "js/global.js" "js/global.php" [NC]
+
+RewriteRule ^remote(/?|)$ load_ajax.php [NC,QSA]
+RewriteRule ^remote/([^\/]+)(\/|)$ load_ajax.php?do=$1 [NC,QSA]
+
+RewriteRule ^vnt-adv(/?|)$ modules/advertise/vnt_ads.php [NC,QSA]
+RewriteRule ^vnt-adv/([^\/]+)(\/|)$ modules/advertise/vnt_ads.php?do=$1 [NC,QSA]
+
+RewriteRule ^thumbs/([0-1])/([xX0-9]+)/(.*)$ thumbs.php?crop=$1&size=$2&src=$3
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+RewriteRule (.*) index.php
+
+allow from 127.0.0.1
+allow from 66.249.69.110
+allow from 66.249.66.18
+allow from 66.249.68.76
+

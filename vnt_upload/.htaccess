@@ -1,0 +1,6 @@
+<files ~ "\.(php.xxx|asp|php|sphp|php3|php4|php5|phtml|cgi|pl|shtml|dhtml|js|txt|htaccess|exe|dat|html)$">
+ deny from all
+</files>
+ErrorDocument 403 /antihack.html
+ErrorDocument 404 /antihack.html
+ErrorDocument 500 /antihack.html

@@ -1,0 +1,186 @@
+Changelog.txt
+
+Date : 12/11/20012 by ThaiSon
+#	Admin
+	- Phần quản lý ngôn ngữ cho ẩn hiện 
+	- Nâng cấp thư viện media
+	- Thêm tương tác SEO
+
+
+
+
+Date : 03/02/2008 by ThaiSon
+
+# Admin
+	- Dùng XiTempale cho phần skin để load nhanh hơn 
+	- Dùng jQuery làm javascript chính cho admin
+	- Cập nhật phần help cho các module
+	- Cập nhật phần check admin (admin/includes/checkadmincp.php)  
+	- Thêm chức năng chọn lang và chọn skin cho admin
+	- File admin.class.php . Thêm hàm include_libraries ($filePath, $base = "../libraries", $key = 'libraries.')
+		+ Dùng để include các thư viên từ trên mạng hoặc tự viết thêm
+	- Cải tiến bộ soan thảo WYSWYG 
+	- Dùng $vnT->input thay cho các biến POST , GET
+	- Thêm chức năng thư viện hình (Media) : dùng để quản lý hình ảnh trên website
+	- Cập nhật module backup ... cho đính trong admin
+	- Cập nhật module config :  
+		+ Thêm cấu hình bộ đếm
+	- Thêm module plugins : quản lý các plugins thêm vào cho website
+	
+	- Thêm chức năng quick_edit :
+		quick_edit (obj,text_data) :
+		+ obj : tên id="" của text cần edit 
+		+ text_data : gồm tenbang DB |field DB | where | lang
+			
+		VD:  	$text_edit = "about_desc|title|aid=1";
+			<span id='edit-text-1' onClick="quick_edit('edit-text-1','$text_edit')">DBClick to Edit Text</span>
+
+# Homepage
+	- Dùng XiTempale cho phần skin global , box để load nhanh hơn 
+		+Skin global.tpl : chỉ load header , footer . Còn LEFT,RIGHT sẽ thay đổi và hiển thị khác nhau  tùy module
+		+Skin box.tpl : show giao diện của các block (left,right)
+	- Cập nhật file init.inc.php :
+		- Thêm class_global.php : có chức năng khởi tạo các giá trị $vnT ban đầu .
+	- Cải tiến file class_blocks.php :
+		Có thể show ácc block trái,phải hoặc 1 block nào đó
+	- File class_functions.php . Thêm hàm include_libraries ($filePath, $base = "../libraries", $key = 'libraries.')
+		+ Dùng để include các thư viên từ trên mạng hoặc tự viết thêm
+
+	- Cập nhật phần install :
+		+ Khắc phục lỗi font từ file xml
+		+ Cải tiến phần setup lang,upload
+	- Cải tiến file class_cache.php
+	
+Date : 03/02/2008 by ThaiSon
+# Admin :
+	- File admin.class.php 
+		+ Thêm các funtion load getToolbar : getToolbar , getToolbar_Cat ,getToolbar_Small
+	- Cập nhật advertise : dạng da ngon ngu
+
+Date : 03/02/2008 by ThaiSon
+
+# Admin
+	Cập nhật các tin tức thông báo (nâng cấp) tự động từ cộng ty web vnTRUST
+	Có chức năng hướng dẫn sử dụng của Admin , Bộ gõ tiếng việt
+	Có check lisence (nếu sai sẽ gửi email thông báo đến email thaison@trust.vn)	
+	Nâng cấp chức năng Auto backup , thông báo backup đến email 
+	- Login :
+		+ Có mã bảo vệ : để đảm bảo an toàn cho dù bị lọ user|pass của Admin
+		+ Chọn ngôn ngữ Anh|Việt
+		+ Chọn giao diện (skin)	 cho admin
+	
+	- Main :
+		+ Thông kê các liên lạc mới
+		+ Thống kê bộ đếm online
+		+ Thông báo backup dữ liệu (nếu bật chức năng tự độnf backup)
+		+ Thông báo các banner hết hạn quảng cáo 
+		
+	- Cấu hình hệ thống
+		+ Cho phép thay đổi tiêu đề trên trình duyệt
+		+ Có thể cập nhật bộ tìm kiếm (Meta Description,Meta Keywords) trên các website search (google)
+		+ Có thể thay đổi dịnh dạng font (Charset) của website
+		+ Cho phép chọn giao diện (skin),module mặc định (trang chủ,giới thiệu ,liên lạc ...)
+		+ Cập nhật Email cho quá trình liên lạc gửi email của (gửi maillist,đặt hàng ... )
+		+ Có chức năng Ẩn hiện bộ đếm truy cập , nâng giảm số truy cập ban đầu , cho hiển thị random số người online
+		+ Có chức năng ẩn hiện tự động backup , thông báo backup qua email
+		+ Tắt mở Lưu cache website 
+		+ Cấu hình phương thức gửi email (Mail, SMTP)
+		+ Xem thông tin cấu hình PHP server
+		+ Chức năng đóng mở website
+			. Hiển thị câu thông báo Đóng website
+			. Tạo Iframe tới website khác
+			. Chuyển sang trang website khác
+	- Quản lý ,Backup dữ liệu
+		+ Xem thống kê trạng thái các bảng trong database (có thể tối ưu hóa dữ liệu) 	
+		+ Backup dữ liệu :
+			. Backup theo từng bảng (vd chỉ backup bảng news ,product ..)
+			. Bakup tòan bộ website
+			. Có thể download và phục hồi dữ liệu từ các file backup
+		+ Backup file : Backup toan bo thu muc vnt_upload
+	
+	- Thông tin quản trị :
+		+ Có thể tạo các nhóm admin . Mỗi nhóm được phân quyền chi tiết (Cho phép xem , xóa , sửa các chức năng chỉ định)
+		+ Có thể tạo thêm nhiều quản trị viên quản lý website với quyền ứng với nhóm chỉ định
+		+ Có chức năng thống kê Admin
+			. Những admin đang online
+			. Các hành động (login,logout,thêm,xóa,sửa ... ) của từng admin 
+	
+	- Quản lý liên lạc
+		+ Cho phép cấu hình : nội dung thông tin liên lạc (address,phone,company ...) . Cập nhật bản đồ công ty
+		+ Tạo các phòng ban : mỗi phòng ban ứng với 1 email liên lạc 
+		+ Xem danh sách liên lạc và các trạng thái (Unread,Read,Reply,Forward ) . Xem chi tiết liên lạc và có thể Trả lời , Forward tới Email khác , hoặc sét về trạng thái chưa đọc
+			
+	- Quản lý giới thiệu
+		+ Thêm xóa sửa Giới thiệu : Có thể post nhiều bài giới thiệu , mỗi giới thiệu có thể có nhiều giới thiệu cấp con
+	
+	- Quản lý maillist
+		+ Có thể tạo nhóm khách hàng
+		+ Có thể thêm 1 hoặc nhiều email
+		+ Gửi maillist cho :
+			. Từng email
+			. Tất cả email
+			. Tất cả email của 1 nhóm
+		+ Có thể download list email về máy
+	
+	- Quản lý giao diện
+		+ Có thể ẩn hiện các block 
+		+ Thêm các block dạng HTML
+		+ Hiển thị block theo module
+		+ Di chuyển block sang TRÁI, PHẢI
+			
+	- Quản lý ngôn ngữ	
+		+ Có thêm thêm xóa sửa ngôn ngữ
+		+ Sét ngôn ngữ mặc định
+		+ Cập nhật chi tiết ngôn ngữ 
+	
+	- Quản lý menu
+		+ Thêm xóa sửa menu  gồm : menu ngang ,menu dọc ..
+
+	- Quản lý site
+		+ Dùng để quản lý các nội dung hiển thị ngắn có thể cập nhật trên website (VD : các giới thiệu ngắn ở trang chủ , điều khoản đăng ký , ...)
+	
+	- Quản lý trang tĩnh
+		+ Cho phép thêm các trang mong muốn rồi gắn vào menu 
+
+	- Quản lý mail tempalte
+		+ Cập nhật nội dung email gửi đến khách hàng (VD: cấu trúc email Liên Lạc , Đặt hàng , Đăng ký ...)	
+
+	- Quản lý bình chọn
+		+ Cho phép tạo các thăm dò ý kiến :
+			. Có hình minh hoa
+			. Thống kê kết quả
+
+	- Cấu hình hỗ trợ
+		+ Cho phép thêm các hỗ trợ trực tuyến gồm (yahoo,skype,goole talk) và thông tin (Họ tên,chức vụ,phone )
+		
+	- Quản lý quảng cáo
+		+ Hiển thị theo cấu trúc giao diện để dễ quảng lý
+		+ Có nhiều vị trí quảng cáo 
+		+ Có thể là dạng logo , selectbox hoặc dạng text
+		+ Có thể upload từ máy hoặc lấy link từ website khác
+		+ Có thể ẩn hiện và hiển thị theo module
+		+ Có cập nhật thời gian quản cáo
+		
+	
+	- Quản lý Plugins :
+		+ Các ứng dụng của website do vnTRUST cung cấp giúp làm phong phú website (VD : hiệu ứng theo Event )
+		+ Có thể ẩn hiện , cập nhật
+
+	- Quản lý thư viện
+		+ Chức năng này dùng để quản lý các hình ảnh, file của website
+		+ Có thể tạo các thư mục file,hình
+
+	- Thống kê truy cập :
+		+ Có sơ đồ truy cập theo ngày,tháng,năm
+		+ Thống kê chung về
+			. Chi tiết truy cập theo ngày
+			. Thống kê hiện tại
+			. Trình duỵệt (Browser)
+			. Hệ điều hành (Operating system)
+			. Top 10 ngày truy cập nhiều nhất
+			. Chi tiết IP truy cập sau cùng 
+		+ Xem thống kê chi tiết theo ngày
+
+# Homepage
+	Có check lisence (nếu sai sẽ gửi email thông báo đến email thaison@trust.vn)	 
+	Các file lang và thư mục upload của các module được tách riêng -> dễ cho việc CHMOD

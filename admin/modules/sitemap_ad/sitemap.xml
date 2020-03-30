@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.trust.vn/gss.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ 
+<url>
+	<loc>http://www.trust.vn/</loc>
+	<lastmod>2010-07-12T04:07:21+00:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>1.00</priority>
+</url>
+ 
+
+<url>
+	<loc>http://www.trust.vn/cong-ty-thiet-ke-website-trustvn.html</loc>
+	<lastmod>2010-07-12T04:54:55+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.50</priority>
+</url>
+
+<url>
+	<loc>http://www.trust.vn/cong-ty-thiet-ke-website-trustvn.html</loc>
+	<lastmod>2010-07-12T04:54:55+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.50</priority>
+</url>
+
+<url>
+	<loc>http://www.trust.vn/thiet-ke-web.html</loc>
+	<lastmod>2010-07-12T04:54:55+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.50</priority>
+</url>
+
+<url>
+	<loc>http://www.trust.vn/quang-cao-web.html</loc>
+	<lastmod>2010-07-12T04:54:55+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.50</priority>
+</url>
+
+<url>
+	<loc>http://www.trust.vn/dich-vu-web.html</loc>
+	<lastmod>2010-07-12T04:54:55+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.50</priority>
+</url>
+
+<url>
+	<loc>http://www.trust.vn/tu-van-thiet-ke-web.html</loc>
+	<lastmod>2010-07-12T04:54:55+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.50</priority>
+</url>
+
+
+
+
+</urlset>
+

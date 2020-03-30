@@ -1,0 +1,51 @@
+.land-price {
+	padding: 5px;
+	text-align: center;
+}
+.land-price b {
+	color: #FF0000;
+	font-size: 14px;
+}
+
+
+
+
+.selectize-control.multi .selectize-input > div {
+	background: #8bb949 !important;
+	color: #ffffff;
+}
+
+.selectize-control.loading::before {
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+	content: ' ';
+	z-index: 2;
+	position: absolute;
+	display: block;
+	top: 50%;
+	right: 34px;
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 0;
+	background: url(../images/spinner.gif);
+	background-size: 16px 16px;
+}
+
+.box-fillter .selectize-control .selectize-input  {
+	font-size: 11px !important;
+	padding: 3px 5px;
+	min-height: 30px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.box-fillter .chosen-container-single .chosen-single span {
+	line-height: 30px !important;
+}
+
+
+.modal-content {
+	height: 300px !important;
+}

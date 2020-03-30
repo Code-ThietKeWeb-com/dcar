@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.autoSuggest.js"></script>
+
+	<link rel="stylesheet" href="autoSuggest.css" type="text/css" />
+	<script>
+		var data = {items: [
+{value: "21", name: "Mick Jagger"},
+{value: "43", name: "Johnny Storm"},
+{value: "46", name: "Richard Hatch"},
+{value: "54", name: "Kelly Slater"},
+{value: "55", name: "Rudy Hamilton"},
+{value: "79", name: "Michael Jordan"}
+]};
+$(document).ready(function() {
+$("#qweqwe").autoSuggest(data.items, {selectedItemProp: "name", searchObjProps: "name"});
+});
+	</script>
+</head>
+<body>
+<input type="text" name="qweqwe" id="qweqwe" />
+</body>
+</html>

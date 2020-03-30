@@ -1,0 +1,9 @@
+<?php
+$conf['firewall']='0';
+$conf['fw_max_lockcount']='10';
+$conf['fw_max_connect']='5';
+$conf['fw_time_limit']='3';
+$conf['fw_time_wait']='10';
+$conf['fw_ip_allow']='127.0.0.1,66.249.69.110,66.249.66.18,66.249.68.76';
+$conf['fw_ip_deny']='192.168.1.13';
+?>

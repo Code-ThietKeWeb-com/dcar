@@ -1,0 +1,37 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<cmsinstall type="plugin">
+
+	<name>snow</name>
+	<creationDate>03.02.2008</creationDate>
+	<author>Thai son</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>thaison@trust.vn</authorEmail>
+	<authorUrl>www.thaison32.info</authorUrl>
+	<version>1.0</version>
+	
+	<title>Hiệu ứng tuyết rơi</title>
+	
+	<files>
+		<filename>setup.php</filename>
+		<filename>snow.php</filename>
+		<filename>snowstorm.js</filename>
+	</files>
+
+	<folder>
+		<foldername>image</foldername>
+	</folder>
+	
+	<params>
+		<param name="imgfolder" >snow</param>
+		<param name="usePNG" >0</param>
+		<param name="flakeTypes" >6</param>
+		<param name="flakesMax" >60</param>
+		<param name="vMax" >2.5</param>
+		<param name="flakeWidth" >5</param>
+		<param name="flakeHeight" >5</param>
+		<param name="snowCollect" >0</param>
+		<param name="showStatus" >0</param>
+	</params>
+
+	
+</cmsinstall>

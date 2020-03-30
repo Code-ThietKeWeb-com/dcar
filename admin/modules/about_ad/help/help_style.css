@@ -1,0 +1,71 @@
+html {
+	scrollbar-face-color: #64A6E9;
+	scrollbar-shadow-color: #BAD5FD;
+	scrollbar-highlight-color: #BAD5FD;
+	scrollbar-3dlight-color: #035CB7;
+	scrollbar-darkshadow-color: #035CB7;
+	scrollbar-track-color: #BAD5FD;
+	scrollbar-arrow-color: #BAD5FD;
+}
+
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+body {
+	background-color: #D5EBFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0066FF;
+}
+
+a:link {
+	text-decoration: none;
+	color: #014279;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #014279;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #0066FF;
+}
+
+a:active {
+	text-decoration: none;
+	color: #014279;
+}
+
+form {
+	display: inline;
+	margin: 0; /* removes mystery form tag gapping */
+	padding: 0; /* removes mystery form tag gapping */
+}
+
+.pagetitle {
+	color: #003399;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.main_menu {
+	border-bottom: 1px #0061B5 solid;
+}
+
+.web_title {
+	color: #0033CC;
+	font-size: 20px;
+	font-weight: bold;
+}

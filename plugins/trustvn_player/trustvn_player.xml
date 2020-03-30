@@ -1,0 +1,36 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<cmsinstall type="plugin">
+
+	<name>trustvn_player</name>
+	<creationDate>03.02.2008</creationDate>
+	<author>Thai son</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>thaison@trust.vn</authorEmail>
+	<authorUrl>www.thaison32.info</authorUrl>
+	<version>1.0</version>
+	
+	<title>Hiệu ứng tuyết rơi</title>
+	
+	<files>
+		<filename>setup.php</filename>
+		<filename>trustvn_player.php</filename>
+		<filename>trustvn_playlist.xml</filename>
+		<filename>trustvn_settings.xml</filename>
+		<filename>trust_player.swf</filename>		
+	</files>
+
+	<folder>
+		<foldername>music</foldername>
+	</folder>
+	
+	<params>
+		<param name="autoplay" >0</param>
+		<param name="default_volume" >50</param>
+		<param name="screentext" >6</param>
+		<param name="flakesMax" >TRUSTvn mp3 player</param>
+		<param name="width" >200</param>
+		<param name="height" >150</param>
+	</params>
+
+	
+</cmsinstall>

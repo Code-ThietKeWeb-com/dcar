@@ -1,0 +1,27 @@
+.box_sitemap {
+	margin-bottom:10px;	
+} 
+.box_sitemap h2 {
+	background:url(../images/icon_cat.gif) left no-repeat ;
+	border-bottom:1px dotted #CCCCCC;
+	color:#003399;
+	font-size:12px;
+	height:25px;
+	line-height:25px; 
+	padding-left:10px;
+}
+.box_sitemap ul {list-style:none;}
+.box_sitemap li {
+	
+	float:left;
+	height:30px;
+	line-height:30px;
+	width:24%;
+}
+.box_sitemap li  a {
+	background:url(../images/icon_li.gif) left no-repeat ;
+	display:block;	
+	line-height:30px;
+	padding-left:10px;
+	color:#3D3D3D;
+}

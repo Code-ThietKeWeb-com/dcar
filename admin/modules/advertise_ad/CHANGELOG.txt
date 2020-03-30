@@ -1,0 +1,11 @@
+Changelog.txt
+
+
+Date : 13/02/2009 by ThaiSon
+
+# Admin
+	- Lưu title và img dạng array (Áp dung đa ngôn ngữ)
+
+# Homepage
+	- File class_lib : cập nhật lấy img và title 
+	

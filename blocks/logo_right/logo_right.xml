@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<cmsinstall type="block">
+
+	<name>logo_right</name>
+	<creationDate>29.12.2007</creationDate>
+	<author>Thai son</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>thaison@trust.vn</authorEmail>
+	<authorUrl>www.thaison32.info</authorUrl>
+	<version>1.0</version>
+	
+	<title>WEB LINK RIGHT</title>
+	<files>
+		<filename>index.html</filename>
+		<filename>block_logo_right.php</filename>
+	</files>
+
+	<folder>
+		<foldername>language</foldername>
+		<foldername>css</foldername>
+	</folder>
+	
+	<install>
+		<queries>
+			<query>
+				INSERT INTO `lang_phrase` (	`phrase_id` ,	`type` ,`fieldname` ,	`title` 	)
+				VALUES (	NULL , 'blocks', 'logo_right', 'LOGO RIGHT');
+			</query>
+		</queries>
+	</install>
+	
+	<uninstall>
+		<queries>
+			<query>
+				DELETE FROM `lang_phrase` WHERE type='blocks' and fieldname='logo_right' ;
+			</query>
+		</queries>
+	</uninstall>
+
+	
+</cmsinstall>

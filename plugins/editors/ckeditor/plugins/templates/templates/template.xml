@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<temp>
+    <!--1 item là template mau-->
+    <item>
+        <!--tiêu đề của template mau-->
+        <title>Liên kết</title>
+        <!--tên hình của template mau-->
+        <image>template5.gif</image>
+        <!--Định nghĩa template-->
+        <description>Liên kết</description>
+        <!--cấu trúc nội dung template không đươc để nội dung rỗng (ví dụ <div></div>,<div class='clear'></div>)-->
+        <html><div class="layout_ck_button"><a href="http://">liên kết</a></div></html>
+    </item>
+    <item>
+        <title>Bố cục 3 cột</title>
+        <image>template4.gif</image>
+        <description>Gồm 3 phần nội dung có hình, tiêu đề, nội dung</description>
+        <html>
+            <div class="layout3col">
+                <div class="layoutitem">
+                    <div class="layoutimg">
+                        <img src=" " style="width:100%; height: 100px"/>
+                    </div>
+                    <h2>Tiêu đề</h2>
+                    <div>Nội dung</div>
+                </div>
+                <div class="layoutitem">
+                    <div class="layoutimg">
+                        <img src=" " style="width:100%; height: 100px"/>
+                    </div>
+                    <h2>Tiêu đề</h2>
+                    <div>Nội dung</div>
+                </div>
+                <div class="layoutitem">
+                    <div class="layoutimg">
+                        <img src=" " style="width:100%; height: 100px"/>
+                    </div>
+                    <h2>Tiêu đề</h2>
+                    <div>Nội dung</div>
+                </div>
+            </div>
+        </html>
+    </item>
+    <item>
+        <title>Văn bản có hình</title>
+        <image>template1.gif</image>
+        <description>Đoạn văn bản bao gồm hình, tiêu đề, nội dung và liên kết</description>
+        <html>
+            <div class="layout_1_list">
+                <div class="item_ck_img">
+                    <img src=" " style="width:100%; height: 100px"/>
+                </div>
+                <div class="item_ck_desc">
+                    <div class="item_ck_title">
+                        <h3>Tiêu đề</h3>
+                    </div>
+                    <div class="item_ck_content">Nội dung</div>
+                    <div class="item_ck_button">
+                        <a href="http://" title="">liên kết</a>
+                    </div>
+                </div>
+            </div>
+        </html>
+    </item>
+</temp>

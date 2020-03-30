@@ -1,0 +1,152 @@
+/* CSS Document */
+html {
+	SCROLLBAR-BASE-COLOR: #dedede;
+	SCROLLBAR-ARROW-COLOR: #000;
+}
+
+body {
+	background:#fff;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	FONT-FAMILY: Arial;
+	font-size: 12px;
+	line-height:18px;
+	height:100%;
+	color:#444444;
+}
+td,th {
+	font-size: 12px;
+	line-height:18px;
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,blockquote,pre,form,input,textarea {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:bold;
+}
+
+.clear {clear: both; font-size: 0px; line-height: 0px; height:0;}
+p {margin:0px;padding:5px 0px;}
+ol,ul {	list-style: none;}
+
+a { text-decoration:none; color:#1f4c92}
+a:hover {  color:#FF6A06; text-decoration: underline; }
+
+img { border : 0px; }
+.img_border { border:1px solid #dfdede ; padding:1px;}
+input {
+    color: #000000;
+}
+.input-warn {border:1px solid #FF0000;line-height:20px;	height:18px;}
+.input-ok { border:1px solid #00CC66; line-height:20px;	height:18px;}
+.button {
+	cursor:pointer;
+	border:outset 1px #ccc;
+	background:#999;
+	color:#FF6A06;
+	padding: 1px 1px;
+}
+
+  
+/* OPTIONAL BUTTON STYLES for applying custom look and feel: */		
+button.btn { 
+padding:0px 10px;
+height:24px;
+border:1px solid #d4d4d4;
+background:#fefefe;
+background-image:-moz-linear-gradient(top,#fefefe,#ebebeb);
+background-image:-webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#ebebeb));
+filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#fefefe,endColorStr=#ebebeb);
+-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(startColorStr=#fefefe, endColorStr=#ebebeb)";
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+white-space:nowrap;
+vertical-align:middle;
+cursor:pointer;
+overflow:visible;
+} 	
+button.btn span {
+	display:inline-block;
+	vertical-align:middle;
+	color:#656565;
+	font-size:13px;
+	font-weight:bold;
+}
+button.btn:hover, button.btn:focus{
+	border-color:#d4d4d4;background:#ebebeb;
+	background-image:-moz-linear-gradient(top,#ebebeb,#fefefe);
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#ebebeb),to(#fefefe));
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ebebeb,endColorStr=#fefefe);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ebebeb, endColorStr=#fefefe)";
+	outline:0;-moz-box-shadow:0 0 3px #999;
+	-webkit-box-shadow:0 0 3px #999;
+	box-shadow:0 0 3px #999
+}
+ 
+.textfiled {
+	background-color:#F2F2F2;
+	border-color:#D3D3D3 #E5E5E5 #E5E5E5 #D3D3D3;
+	border-style:solid;
+	border-width:1px;
+	height:20px;
+}
+.textarea{
+	background-color:#F2F2F2;
+	border-color:#D3D3D3 #E5E5E5 #E5E5E5 #D3D3D3;
+	border-style:solid;
+	border-width:1px;
+	line-height:20px; 
+	overflow:auto;
+}
+.select{
+	border:1px solid #D3D3D3;
+	padding:1px; 
+	font-size:13px; 
+}
+
+
+.font_f_title {
+	color: #993333;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform:uppercase;
+}
+
+.font_err {
+	color: #FF0000;
+}
+
+
+.mess_info {text-align:center; font-weight:bold; color:#993333}
+/********************* CSS for boxMess ****************************/
+#boxMess {
+	border: 1px solid #F08200;
+	padding: 2px 5px;
+	background: #FCF5CD
+}
+
+#boxMess  h4.mess {
+	background: url(../../../images/icon/icon_mess.gif) no-repeat left;
+	padding: 2px 30px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#boxMess  h4.err {
+	background: url(../../../images/icon/icon_warning.gif) no-repeat left;
+	padding: 6px 30px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#boxMess .font_err {
+	text-decoration: blink;
+	color: #950000;
+}

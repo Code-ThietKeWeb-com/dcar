@@ -1,0 +1,86 @@
+html {
+	SCROLLBAR-BASE-COLOR: #CCCCCCC;
+	SCROLLBAR-ARROW-COLOR: #000000;
+}
+
+body {
+	background:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+td,th {
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height:18px;
+}
+
+a:active {  text-decoration: none; color:#FF0707}
+a:link {  text-decoration: none ; color:#FF0707}
+a:visited {  text-decoration: none ; color:#FF0707}
+a:hover {  color:#1074EF; text-decoration: underline; }
+
+img { border : 0px; }
+
+input {
+    color: #000000;
+}
+
+.button {
+	background-color: #F3F7F6;
+    color: #F40924;
+	border:1px solid #CCD3D6;
+	padding:2xp;
+	cursor:pointer;
+}
+.textfiled {
+	border:1px solid #CCD3D6;
+	line-height:20px;
+
+}
+.textarea{
+	border:1px solid #CCD3D6;
+	line-height:20px;
+	color: #000000;
+	scrollbar-base-color:#AAA9A9;
+	scrollbar-arrow-color:#000000; 
+	overflow:auto;
+}
+.select{
+	scrollbar-base-color:#CCD3D6;
+	scrollbar-arrow-color:#000000; 
+	color: #000000;
+}
+
+.font_f_title {
+	color:#006C8E;
+	font-weight:bold;
+	font-size:14px;
+}
+
+
+.font_err {
+	color:#FF0000;
+}
+.textarea {	border:1px solid #CCD3D6;
+	line-height:20px;
+	color: #000000;
+	scrollbar-base-color:#AAA9A9;
+	scrollbar-arrow-color:#000000; 
+	overflow:auto;
+}
+
+.box_support {
+	padding:5px 5px;
+	line-height:18px;
+}
+.box_support p.img { text-align:center;}
+.box_support span { color:#FF7E00}
+
+/********************* CSS for boxMess ****************************/
+#boxMess{  border:1px solid #F08200;padding:2px 5px; background:#FCF5CD }
+#boxMess  h4.mess { background:url(../images/icon_mess.gif) no-repeat left; padding:2px 30px; color:#FF0000; font-weight:bold;}
+#boxMess  h4.err { background:url(../images/icon_warning.gif) no-repeat left; padding:6px 30px; color:#FF0000; font-weight:bold;}
+#boxMess .font_err {  color:#950000;}

@@ -1,0 +1,280 @@
+/**
+ * Metabox Tabs
+ */
+
+ul.wpseo-metabox-tabs {
+	display: none;
+	margin-top: 12px;
+	margin-bottom: 3px;
+	padding-left:0px;
+}
+
+.wpseo-metabox-tabs-div ul {
+	list-style: none;
+}
+
+.wpseo-metabox-tabs li {
+	display: inline;
+}
+
+ul.wpseo-metabox-tabs li.active {
+	border-style: solid solid none;
+	border-width: 1px 1px 0;
+}
+
+ul.wpseo-metabox-tabs li {
+	padding: 5px;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.wpseo-metabox-tabs a {
+	text-decoration: none;
+}
+
+.wpseo-metabox-tabs-div div.wpseo-tabs-panel {
+	overflow: auto;
+	padding: 0.5em 0.9em;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.wpseo-heading {
+	padding-left: 10px;
+}
+
+.wpseo-tab-content {
+	overflow: auto;
+	padding: 0.5em 0.9em;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#wpseo_meta .postbox .inside .wpseo-tab-content {
+	font-size: 13px !important;
+}
+
+.inside .wpseo-tab-content .form-table th {
+	font-size: 13px;
+	width: 140px !important;
+}
+
+.good, .warn, .wrong {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.good {
+	color: blue;
+}
+
+.warn {
+	color: maroon;
+}
+
+.wrong {
+	color: red;
+}
+
+#current_seo_title span {
+	background-color: lightyellow;
+	padding: 2px 5px;
+}
+
+#wpseosnippet {
+	margin: 0 0 10px 0;
+	padding: 0 5px;  
+	font-style: normal;
+	/*width: 540px !important;*/
+}
+
+#wpseosnippet td {
+	padding: 0;
+	margin: 0;
+}
+
+#wpseosnippet cite.url {
+	font-weight: normal;
+	font-style: normal;
+}
+
+#wpseosnippet a {
+	text-decoration: none;
+}
+
+#wpseosnippet .wpseo_title {
+	color: #11c;
+	font-size: 13px !important;
+	line-height: 19px;
+	text-decoration: underline;
+}
+
+#wpseosnippet .desc {
+	color: #000;
+}
+
+#wpseosnippet .wpseo_url {
+	color: #093 !important; 
+}
+
+#wpseosnippet .meta {
+	color: #767676;
+}
+
+#wpseosnippet .util {
+	color: #4272DB;
+}
+
+#wpseosnippet p {
+	margin: 0 !important;
+}
+
+#wpseosnippet a:hover {
+	text-decoration: underline;
+}
+
+#wpseosnippet {
+	margin-bottom: 10px;
+}
+
+.wpseo_yahoo_kw {
+	display: block;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #ddd;
+	margin: 3px 8px 3px 0;
+	padding: 3px;
+}
+
+.wpseo_hidden {
+	display: none;
+}
+
+/* Linkdex analysis block */
+
+table.wpseoanalysis th {
+	text-align: left;
+	font-weight: 14px;
+	padding: 15px 0 5px 0;
+}
+
+table.wpseoanalysis th.first {
+	padding-top: 0;
+}
+
+table.wpseoanalysis td {
+	font-weight: 13px;
+	line-height: 16px;
+	margin: 5px 0;
+}
+
+table.wpseoanalysis td.score {
+	width: 40px;
+	height: 30px;
+	padding-left: 10px;
+}
+ 
+.wpseo_msg {
+	border: 1px solid #E6DB55;
+	background-color: lightYellow;
+	margin: 5px 0 10px 0;
+	padding: 0 5px;
+}
+
+   
+#yoast_wpseo_title,
+#yoast_wpseo_metadesc,
+#yoast_wpseo_focuskw
+ {
+    border: 1px solid #CECBCB;
+    color: #5E5E5E;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px 5px 4px;
+    width: 750px;
+}
+#yoast_wpseo_title,
+#yoast_wpseo_metadesc,
+#yoast_wpseo_focuskw{
+	width:100%;
+	border: 1px solid #cecbcb;
+}
+  
+.linkdex{
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#logo-header {
+    margin: 10px auto 4px;
+    width: 960px;
+}
+span.cke_skin_kama {
+	border: none!important;
+}
+ 
+.sm{
+	text-align: center; 
+	padding: 10px 0;
+}
+.article_heading,.page_url,.page_title,.meta_desc,.content_result,.h1tag,.h26tag,.strongtag,.italictag,.imagealt{
+    background: url("../images/bgr.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    text-align: center;
+    width: 100px;
+    border: 1px solid #cecbcb;
+    padding: 5px 0;
+    margin-right:5px;
+}
+.article_heading{
+	width: 105px;	
+}
+.page_url{
+	width: 80px;	
+}
+.page_title{
+	width: 80px;	
+}
+.meta_desc{
+	width: 120px;
+}
+.content_result{
+	width: 75px;
+}
+.h1tag{
+	width: 75px;
+}
+.h26tag{
+	width: 75px;
+}
+.strongtag{
+	width: 75px;
+}
+.italictag{
+	width: 75px;
+}
+.imagealt{
+	width: 80px;
+}
+.label{
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+}
+#focuskwresults  .label { display: block}
+.results{
+	/*height: 50px;*/
+}
+tr.shaded {
+    background-color: #F7F3F7;
+}
+  

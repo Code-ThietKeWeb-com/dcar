@@ -1,0 +1,166 @@
+/* CSS Document */
+html {
+	SCROLLBAR-BASE-COLOR: #CCCCCCC;
+	SCROLLBAR-ARROW-COLOR: #000000;
+}
+
+body {	
+	background: url(../images/bg.gif);	 	
+	FONT-FAMILY:Tahoma ;
+	font-size: 11px;
+	line-height:18px; 
+}
+
+#vnt-wrapper {
+	width:100%;
+}
+#vnt-container {
+	width:950px;
+	margin:0px auto;
+	background:#FFFFFF;
+}
+/*======================== css su dung cho header ================================*/
+
+#vnt-header	{
+	padding:0px;
+	overflow:hidden;
+	margin-bottom:10px;	
+}
+#vnt-header	.logo {float:left; width:190px; margin-right:10px;}
+#vnt-header	.banner {float:left; width:530px;}
+#vnt-header	.header-tool {float:right; width:190px;  }
+#vnt-header	.header-tool .box_lang {text-align:right; padding-right:10px; padding-top:10px;}
+#vnt-header	.header-tool .header_like { padding-top:10px}
+/*======================== css su dung cho menutop ================================*/
+#vnt-menutop { margin-bottom:10px;  background:url(../images/menutop_bg.gif) repeat-x;   padding:2px 10px; }
+
+#vnt-menutop .menutop {
+	 float:left;
+	 width:700px; 
+}
+
+#vnt-menutop .menutop li.menu {
+	display:block;
+	float:left;
+	text-transform:uppercase; 
+	font-weight:bold;
+	padding:2px 5px;
+	position:relative;
+}
+#vnt-menutop .menutop li.menu > a { display:block; line-height:25px; }
+#vnt-menutop .menutop li.menu > a.current{
+	color:#f9c838;
+} 
+
+#vnt-menutop .menutop ul li.menu:hover a {
+	color:#f9c838;	
+} 
+
+
+/*submenu*/
+#vnt-menutop .menutop ul ul {	
+	display: none;
+	top:39px;
+	left:0px;
+	position: absolute;
+	z-index: 12;
+  max-width: 1000px; 	
+	min-width:240px;
+	background:#2a2a2a;	 			 
+}
+#vnt-menutop .menutop ul li:hover > ul {
+	display: block;
+}
+
+#vnt-menutop .menutop ul ul li {
+	float: none;  
+	position: relative;
+	text-align:left; 
+	padding-bottom:2px;
+}
+#vnt-menutop .menutop ul ul li:last-child {	background:none;	}
+#vnt-menutop .menutop ul ul li a {
+	padding:5px 0px;
+	line-height:28px;
+	color:#fff;
+	display:block;
+	font-weight:bold;				 
+	position:relative;
+	padding-left:30px;
+}	
+#vnt-menutop .menutop ul ul li a::before  {
+	position:absolute;
+	content:"•"; 
+	left:15px;
+	width:20px;  
+	color:#ffffff ;
+	font-size:16px;
+} 
+#vnt-menutop .menutop ul ul ul {
+	position: absolute; 
+	left: 100%; 
+	top:0;
+}
+
+
+
+#vnt-menutop .header_search {
+	 float:right;
+	 width:230px; 
+}
+
+.box_lang a { }
+.box_lang a.current{
+	color:#e0ba83;
+}
+
+/*======================== css breadcrumb ================================*/
+
+#vnt-navation.breadcrumb { background:none; text-align:left; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; margin-bottom:10px; color:#666666 ; font-size:11px; height:20px ; overflow:hidden; padding:0px;}
+#vnt-navation.breadcrumb a { color:#666666 ; } 
+#vnt-navation .navation {
+	 padding-left:20px;
+	 line-height:20px;
+	 white-space:nowrap;
+	 position:relative;
+}
+#vnt-navation .navation:before {
+	font-family:"FontAwesome";
+	content:"\f015";
+	position:absolute;
+	left:0px;	
+	font-size:16px;
+}
+#vnt-navation .navation span { padding:0px 3px;}
+
+
+/*======================== css su dung chung cho trang ================================*/
+#vnt-content {
+	padding:10px 
+}
+	
+	
+#vnt-main { 
+	vertical-align:top;
+}
+#vnt-sidebar {	
+	vertical-align:top;
+}
+
+
+
+
+/*------------ css cho footer ------------*/
+#vnt-footer {
+	padding:0px; 
+}
+#vnt-footer .menu_footer { text-align:center}
+#vnt-footer .copyright {text-align:center;}
+
+#vnt-social-network { text-align:center; padding:10px 0px;}
+
+a.go_top{background: url(../images/gotoTop.png) no-repeat;display:block;position:fixed;z-index:9999;bottom:10px;right:10px;width:45px;height:45px;  }
+a.go_top:hover{background: url(../images/gotoTop.png) no-repeat;display:block;position:fixed;z-index:9999;bottom:10px;right:10px;width:45px;height:45px; }
+
+ 
+ 

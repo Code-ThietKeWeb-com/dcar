@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cmsinstall type="block">
+
+	<name>poll</name>
+	<creationDate>05.02.2008</creationDate>
+	<author>Thai son</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>thaison@trust.vn</authorEmail>
+	<authorUrl>www.thaison32.info</authorUrl>
+	<version>1.0</version>
+	
+	<title>BLOCK POLL</title>
+	<files>
+		<filename>block_poll.php</filename>
+		<filename>ajax-poller-cast-vote-php.php</filename>
+		<filename>ajax.js</filename>
+		<filename>ajax-poller.js</filename>
+	</files>
+	
+	<folder>
+		<foldername>css</foldername>
+		<foldername>language</foldername>
+		<foldername>images</foldername>
+	</folder>
+	
+	<install>
+		<queries>
+			<query>
+				INSERT INTO `lang_phrase` (	`phrase_id` ,	`type` ,`fieldname` ,	`title` 	)
+				VALUES (	NULL , 'blocks', 'poll', 'BLOCK POLL');
+			</query>
+		</queries>
+	</install>
+	
+	<uninstall>
+		<queries>
+			<query>
+				DELETE FROM `lang_phrase` WHERE type='blocks' and fieldname='poll' ;
+			</query>
+		</queries>
+	</uninstall>
+	
+</cmsinstall>

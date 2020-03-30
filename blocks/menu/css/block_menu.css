@@ -1,0 +1,21 @@
+/* --------------- box_menu ------------------------ */
+#box_menu {padding:3px;}
+#box_menu li{ 
+	background:url(../images/hr_menu.gif) bottom repeat-x;
+	padding:5px 2px 2px;
+	
+}
+#box_menu li.last{
+	background:none;
+}
+#box_menu li a{
+	background:url(../images/icon_menu.gif) left no-repeat;
+	padding-left:7px;
+	color:#016BA8;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#box_menu li a:hover{
+	color:#FF6C00;
+}

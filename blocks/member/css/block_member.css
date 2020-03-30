@@ -1,0 +1,72 @@
+
+/* --------------- box_member ------------------------ */
+.box_member{ padding:5px; color:#FFF}
+.box_member input {
+	vertical-align:middle;
+}
+ 
+.box_member label {
+	text-align:left;
+}
+.box_member span {
+	color:#FF0000;
+	font-size:14px;
+}
+.box_member p {
+	padding:0px 2px;
+}
+ 
+.box_member li {
+	line-height:18px;
+	padding:3px 0px;
+	text-align:center;
+}
+
+.box_member .ip {
+	text-align:left;
+	background:url(../images/icon_ip.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}
+.box_member .member {
+	text-align:left;
+	background:url(../images/icon_info.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}
+.box_member .inbox {
+	text-align:left;
+	background:url(../images/icon_pm.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:13px;
+}
+.box_member .estore {
+	text-align:left;
+	background:url(../images/icon_estore.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}
+.box_member .product {
+	text-align:left;
+	background:url(../images/icon_product.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}
+.box_member .ads {
+	text-align:left;
+	background:url(../images/write.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}
+.box_member .changepass {
+	text-align:left;
+	background:url(../images/icon_reload.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}
+.box_member .logout {
+	text-align:left;
+	background:url(../images/exit.gif) no-repeat left center;
+	padding-left:25px;
+	line-height:18px;
+}

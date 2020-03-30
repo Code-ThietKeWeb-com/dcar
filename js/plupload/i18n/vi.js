@@ -1,0 +1,25 @@
+// French
+plupload.addI18n({
+    'Select files' : 'Chọn hình ',
+    'Add files to the upload queue and click the start button.' : 'Thêm tập tin vào hàng đợi tải lên và nhấp vào nút bắt đầu.',
+    'Filename' : 'Tên file',
+    'Status' : 'Trạng thái',
+    'Size' : 'Kích thước',
+    'Add files' : 'Thêm file',
+    'Stop current upload' : 'Dừng tải lên hiện tại',
+    'Start uploading queue' : 'Bắt đầu hàng đợi tải lên',
+    'Uploaded %d/%d files': 'Đã upload %d/%d files',
+    'N/A' : 'N/A',
+    'Drag files here.' : 'Kéo các tập tin ở đây.',
+    'File extension error.': 'Mở rộng tập tin lỗi',
+    'File size error.': 'Kích thước tập tin lỗi.',
+    'Init error.': 'Khởi tạo bị lỗi',
+    'HTTP Error.': 'HTTP Error.',
+    'Security error.': 'Security error.',
+    'Generic error.': 'Generic error.',
+    'IO error.': 'IO error.',
+    'Stop Upload': 'Dừng upload.',
+    'Add Files': 'Thêm file',
+    'Start upload': 'Bắt đầu upload.',
+    '%d files queued': '%d files queued.'
+});

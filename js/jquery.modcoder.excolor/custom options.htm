@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="timon" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/modcoder_excolor/jquery.modcoder.excolor.js"></script>
+
+	<script type="text/javascript">
+	$('document').ready(function() {
+		// running ExColor
+		$('#my_input_1').modcoder_excolor();
+		$('#my_input_2').modcoder_excolor({
+			hue_bar : 2,
+			hue_slider : 1,
+			sb_border_color : '#52527d',
+			round_corners : false,
+			background_color : '#e5e1e6',
+			backlight : false,
+			input_background_color : '#f5edd5',
+			label_color : '#3d4d3a'
+		});
+		$('#my_input_3').modcoder_excolor({
+			hue_bar : 9,
+			hue_slider : 28,
+			sb_slider : 1,
+			shadow : false,
+			background_color : '#819091',
+			backlight : false,
+			input_text_color : '#20780a',
+			input_background_color : '#e8fff2',
+			label_color : '#3d4d3a',
+			effect : 'zoom',
+		});
+		$('#my_input_4').modcoder_excolor({
+			hue_bar : 2,
+			hue_slider : 81,
+			sb_slider : 9,
+			sb_border_color : '#787878',
+			shadow : false,
+			background_color : '#000000',
+			backlight : false,
+			input_text_color : '#57530b',
+			input_background_color : '#fff8e8',
+			label_color : '#fff2d4',
+			effect : 'slide'
+   		});
+	});
+	</script>
+
+	<title>A simple example</title>
+</head>
+
+<body>
+	Variant <b>a.</b><br />
+	<input id="my_input_1" name="someName" size="20" /><br /><br />
+	Variant <b>b.</b><br />
+	<input id="my_input_2" name="someName" size="20" /><br /><br />
+	Variant <b>c.</b><br />
+	<input id="my_input_3" name="someName" size="20" /><br /><br />
+	Variant <b>d.</b><br />
+	<input id="my_input_4" name="someName" size="20" /><br /><br />
+</body>
+</html>

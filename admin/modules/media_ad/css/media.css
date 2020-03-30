@@ -1,0 +1,542 @@
+.media-content {
+	overflow: hidden;
+}
+#media_list {
+	height: 200px;
+	scrollbar-base-color: #DCDCDC;
+	scrollbar-arrow-color: #000000;
+	overflow: auto;
+}
+
+.item {
+	float: left;
+	border: 1px solid #ccc;
+	margin: 3px;
+	position: relative;
+}
+
+.item a {
+	display: table-cell !important;
+	display: block;
+	width: 80px;
+	height: 90px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	line-height: 90px;
+}
+
+.item a:hover {
+	text-decoration: none;
+}
+
+.item img {
+	display: inline;
+	margin-top: expression((   80 -   this.height)/ 2 );
+}
+
+html>body .item img {
+	margin: auto;
+}
+
+.item span {
+	line-height: 100%;
+	clear: both;
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2px 0;
+	background-color: #eee;
+	overflow: hidden;
+	font-size:10px;
+}
+
+/************************* BORDER **********************/
+.tableborder {
+	border: 2px solid #C9C9B5;
+	padding: 5px;
+}
+ 
+.media-content { background:#fff;}
+
+::-moz-selection
+{
+	background:#b3d4fc;
+	text-shadow:none
+}
+	::selection
+{
+	background:#b3d4fc;
+	text-shadow:none
+}
+
+
+.filebrowse
+{
+	background:#F5F5F5;
+	height:400px;
+	overflow:auto;
+	width:100%
+}
+.filetype
+{
+	float:left;
+	position:relative
+}
+
+#imglist{
+	margin:5px
+}
+
+.imgcontent
+{
+	background:#fff;
+	border:2px solid #EAEAEA;
+	color:#666;
+	cursor:pointer;
+	float:left;
+	height:124px;
+	line-height:16px;
+	margin-bottom:2px;
+	margin-right:2px;
+	padding:5px;
+	text-align:center;
+	width:100px; 
+}
+
+.imgcontent:hover
+{
+	background:#F2F9FC;
+	border:2px solid #DDEFF8;
+	color:#333
+}
+
+	img.previewimg
+{
+	background:#FFF;
+	border:2px solid #F0F0F0;
+	max-height:80px;
+	max-width:80px;
+	padding:2px
+}
+
+.imgfolder
+{
+	background:#FFF;
+	cursor:pointer;
+	height:360px;
+	margin:1px;
+	overflow:auto;
+	width:200px
+}
+.imgInfo
+{
+	font:400 10px/12px tahoma,arial,sans-serif;
+	height:30px
+}
+.imgsel
+{
+	background:#fd8;
+	border:2px solid #fb0;
+	color:#333
+}
+
+.media-footer { padding:5px;}
+.notupload
+{
+	color:#F00;
+	float:right;
+	font-size:10px;
+	font-weight:bold;
+	padding:5px
+}
+.refresh ,.editor_refresh, .search ,.editor_search
+{
+	float:left;
+	margin:3px 10px 0;
+	position:relative
+}
+.refresh ,.editor_refresh, .search ,.editor_search img
+{
+	border:none
+}
+.filetype {
+    float: left;
+    position: relative;
+}
+.sortFile {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+
+
+input[type="file"] {
+    cursor: pointer;
+    font-size: 30px;
+    height: 33px;
+    left: -320px;
+    opacity: 0;
+    position: relative;
+    z-index: 1000;
+}
+.upload
+{
+	background:url(../images/upload.gif) no-repeat 0 0;
+	cursor:pointer;
+	float:left;
+	height:26px;
+	overflow:hidden;
+	position:relative;
+	width:77px
+}
+.upload:hover
+{
+	background:url(../images/upload.gif) no-repeat 0 -26px
+}
+.uploadForm
+{
+	float:right;
+	position:relative; 
+}
+
+
+
+
+
+
+
+
+
+.filedetails { padding:10px;}
+
+.filedetails h3 {
+    color: #777777;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0 8px;
+    position: relative;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: uppercase;
+}
+
+.attachment-info {
+    border-bottom: 1px solid #E5E5E5;
+    box-shadow: 0 1px 0 #FFFFFF;
+    color: #999999;
+    line-height: 18px;
+    margin-bottom: 16px;
+    min-height: 60px;
+    overflow: hidden;
+    padding-bottom: 11px;
+}
+
+
+.attachment-info .thumbnail:after {
+    bottom: 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+    content: "";
+    display: block;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.attachment-info .thumbnail {
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    max-height: 120px;
+    max-width: 120px;
+    position: relative;
+}
+
+
+.attachment-info .details {
+    float: left; 
+    max-width: 100%;
+}
+
+.attachment-info .thumbnail img {
+    display: block;
+    margin: 0 auto;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.attachment-info .filename {
+    color: #464646;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.filedetails .file-setting  { border-bottom: 1px solid #E5E5E5;    box-shadow: 0 1px 0 #FFFFFF; margin-bottom: 5px; overflow:hidden;}
+.filedetails .setting {
+    display: block;
+    float: left;
+    margin: 1px 0;
+    width: 100%;
+}
+
+.filedetails .setting label  {
+    color: #999999;
+    float: left;
+    font-weight: normal;
+    line-height: 16px;
+    min-height: 22px;
+    padding-top: 8px;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.filedetails .setting .div-text {
+	float: right;
+   width: 65%;
+} 
+ 
+.filedetails .div-button  { text-align:center; padding:10px 0px;}
+.filedetails .div-button a.button { text-decoration:none;}
+
+
+
+
+
+
+
+
+
+.popupGallery {
+	padding: 15px;
+}
+
+
+
+
+
+
+.list_pic_old{
+	margin-bottom: 10px;
+
+}
+.list_pic_old .pic_item {
+	float:left;
+	margin:5px;
+	position:relative;
+	cursor: move;
+}
+.list_pic_old .pic_item{
+	float:left;
+	margin:5px;
+	position:relative;
+	border:#ccc solid 1px;
+	padding:2px;
+}
+.list_pic_old .pic_item .remove{
+	background:url(../images/remove.png) no-repeat right top;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.list_pic_old .pic_item::after {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 30px;
+	height: 30px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #333333;
+	content: ''attr(data_count)'';
+}
+
+
+.list_pic_up{
+	border:1px solid #c8c8c8;
+	background:#ffffff;
+	color:#333333;
+	font-size:12px;
+	min-height:32px;
+	float:left;
+	width:480px;
+}
+.list_pic_up .pic_up{
+	position:relative;
+	border-top:1px solid #b9c6d5;
+	padding:2px 0px;
+}
+.list_pic_up .pic_up .remove{
+	background:url(../images/remove.png) no-repeat right top;
+	width:18px;
+	height:18px;
+	display:inline-block;
+}
+#upload{
+	float:left;
+	padding-left:5px;
+}
+
+
+
+
+.square.note {
+	background: none repeat scroll 0 0 #ECECEC;
+	border: 1px solid #CCCCCC;
+	color: #333333;
+	padding: 5px 10px 10px;
+	line-height: 20px;
+}
+
+
+.div-picture {
+	margin-bottom: 20px;
+}
+.div-picture .div-file {
+	margin-bottom: 10px;
+}
+.div-picture .div-file .btn-pic {
+	height: auto;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 5px 20px;
+	background: #ee3135 ;
+	color: #ffffff;
+	border: 0px;
+	outline: 0px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+	font-weight: 400;
+	margin-right: 5px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	border-radius:4px;
+	cursor: pointer;
+	margin-bottom:0px;
+}
+.div-picture .div-file .btn-pic b {
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+}
+
+
+.div-picture .plupload_wrapper {
+	width: 100%;
+	min-width: auto;
+}
+
+.div-picture .plupload_wrapper .plupload_buttons {
+	width: 200px;
+}
+
+.div-picture .plupload_wrapper .plupload_droptext {
+	width: 200px;
+	top: 70px;
+	height: 105px;
+	z-index: 999;
+}
+
+.div-picture .plupload_wrapper .plupload_filelist_content {
+	width: calc(100% - 240px);
+}
+
+.div-picture .div_required {
+	position: relative;
+}
+
+
+.div-picture  .plupload_buttons #uploader_stop {
+	display: none;
+}
+
+
+.ListGallery {
+	font-size: 12px;
+}
+.ListGallery .img { text-align: center}
+.ListGallery .img img {
+	max-width: 50px;
+	max-height:30px;
+}
+
+ .ListGallery .table>tbody>tr>td {
+	padding: 4px !important;
+}
+
+.ListGallery .div-action {
+	padding-top: 5px;
+}
+.ListGallery .div-action a {
+	display: inline-block;
+	margin: 0px 2px;
+}
+.ListGallery .div-action a.btn {
+	padding: 2px 5px;
+}
+
+
+.galleryEdit {
+
+}
+
+.mid-title {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.mid-title .titleL {
+	float: left;
+}
+.mid-title .titleR {
+	float: right;
+}
+.galleryEdit .fTitle {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #ff0000;
+
+}
+
+.mid-content {position: relative}
+.block-gallery {
+	margin-bottom: 15px;
+}
+.gallery-title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #B84120;
+	background: #f0f0f0;
+	border: 1px solid #cccccc;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+
+}
+
+.clear { clear:both}
+
+.galleryEdit .div-button {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+/*editor_gallery*/

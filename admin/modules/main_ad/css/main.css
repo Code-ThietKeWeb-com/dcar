@@ -1,0 +1,173 @@
+.dashboard-widgets-wrap {
+	padding-top:10px ;
+	position: relative;
+	margin: 0px -10px;
+}
+.dashboard-widgets-wrap::after {
+	content: '';
+	clear: both;
+	display: table;
+
+}
+
+.dashboard-box{
+	float:left;
+	width:50%;
+	padding: 0px 10px;
+}
+
+
+
+.postbox {
+	background-color:#FFFFFF;
+	border-color:#DFDFDF;
+	-moz-border-radius:6px 6px 6px 6px;
+	border-style:solid;
+	border-width:1px;
+	line-height:1;
+	margin-bottom:10px;
+	min-width:255px;
+	position:relative;
+	width:99.5%;
+}
+ 
+.postbox .handlediv {
+	float: right;
+	width: 23px;
+	height: 26px;
+}
+.postbox:hover .handlediv {
+	background: transparent url(../images/menu-bits.gif) no-repeat scroll left -111px;
+}
+
+.postbox .hndle {
+	cursor:move;
+}
+
+.postbox h3 {	
+	
+	background:url("../images/gray-grad.png") repeat-x scroll left top #DFDFDF;
+text-shadow:0 1px 0 #FFFFFF;
+	-moz-border-radius:6px 6px 0 0;
+	-moz-user-select:none;
+	cursor:move;
+	color:#464646;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1;
+	margin:0;
+	padding:7px 9px;
+}
+
+div.postbox div.inside {
+	margin:10px;
+	position:relative;
+}
+
+.hidden, .js .closed .inside, .js .hide-if-js, .no-js .hide-if-no-js {
+display:none;
+}
+
+
+.rss-widget ul {list-style:none;}
+.rss-widget ul li {
+	line-height:1.5em;
+	margin-bottom:12px;
+}
+
+.rss-widget a.rsswidget {
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:13px;
+	line-height:1.7em;
+}
+.rss-widget span.rss-date {
+	margin-left:3px;
+}
+
+
+
+
+
+
+
+
+
+
+.vnt-title h2{
+	font-size: 30px;
+	line-height: 50px;
+	color: #33373b;
+}
+.icon-home{
+	background: none;
+	padding:0;
+	line-height: 50px;
+}
+
+
+.postbox h3{
+	background: #8bb949;
+	text-shadow: none;
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'RobotoBold';
+	color: #ffffff;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding:7px 9px 7px 35px;
+	position: relative;
+}
+.postbox h3:after{
+	position: absolute;
+	font-family:"fontawesome";
+	content:"\f0c9";
+	top:7px;
+	left: 10px;
+}
+.postbox .handlediv{
+	float: right;
+	width: 36px;
+	height: 36px;
+	position: relative;
+	z-index: 1;
+}
+.postbox .handlediv:after{
+	position: absolute;
+	content:'';
+	top: 17px;
+	left: 12px;
+	border: 6px solid transparent;
+	border-top-color: #D4D4D4;
+	opacity: 0;
+	-webkit-transition:opacity 0.5s ease;
+	-moz-transition:opacity 0.5s ease;
+	-o-transition:opacity 0.5s ease;
+	transition:opacity 0.5s ease;
+}
+.postbox:hover .handlediv{
+	background: none;
+}
+.postbox:hover .handlediv:after{
+	opacity: 1;
+}
+.dashboard-box table.adminlist{
+	border-spacing: 0;
+}
+.dashboard-box table.adminlist td, table.adminlist th{
+	padding: 3px;
+}
+.dashboard-box table.adminlist tbody tr td{
+	border: none;
+	border-top: 1px solid #dddddd;
+}
+.dashboard-box table.adminlist tbody tr:first-child td{
+	border-top: none;
+}
+
+
+@media screen and (max-width:768px){
+	.dashboard-box {
+		width: 100%;
+		float: none;
+	}
+}

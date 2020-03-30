@@ -1,0 +1,9 @@
+---  Version 1.2  -------------->  18.09.2011
+
+[ EN ]
+
+Added option z_index
+
+[ RU ]
+
+Добавлен параметр z_index

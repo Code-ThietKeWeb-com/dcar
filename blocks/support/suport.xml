@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<cmsinstall type="block">
+
+	<name>support</name>
+	<creationDate>29.12.2007</creationDate>
+	<author>Thai son</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>thaison@trust.vn</authorEmail>
+	<authorUrl>www.thaison32.info</authorUrl>
+	<version>1.0</version>
+	
+	<title>Há»– TRá»¢</title>
+	<files>
+		<filename>block_support.php</filename>
+	</files>
+	
+	<folder>
+		<foldername>language</foldername>
+		<foldername>images</foldername>
+	</folder>
+	
+	<install>
+		<queries>
+			<query>
+				INSERT INTO `lang_phrase` (	`phrase_id` ,	`type` ,`fieldname` ,	`title` 	)
+				VALUES (	NULL , 'blocks', 'support', 'Hổ trợ trực tuyến');
+			</query>
+		</queries>
+	</install>
+	
+	<uninstall>
+		<queries>
+			<query>
+				DELETE FROM `lang_phrase` WHERE fieldname='support' ;
+			</query>
+		</queries>
+	</uninstall>
+	
+</cmsinstall>

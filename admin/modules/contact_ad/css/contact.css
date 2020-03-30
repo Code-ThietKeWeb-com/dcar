@@ -1,0 +1,24 @@
+.img-bg {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.with-nav-tabs .panel-heading {	padding-bottom: 0;	}
+.panel-heading  .nav-tabs {	border-bottom: none;margin-bottom: -2px;}
+.panel-heading  .nav-tabs a { font-weight: bold;}
+.panel-heading  .nav-tabs .active a { color: #B84120;}
+.panel-heading  .nav-tabs input { display: inline-block ; margin-right: 5px;}
+
+.tbl-step-maps {
+
+}
+.tbl-step-maps td {
+	padding: 5px 0;
+}
+.e-status {
+	font-weight: bold;
+}
+.e-status.unread{color: #B84120;}
+.e-status.read{
+	color: #333333;
+}

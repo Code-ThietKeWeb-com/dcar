@@ -1,0 +1,88 @@
+/*********************************    Menu     *********************************************/
+.transMenu {
+	position:absolute;
+	overflow:hidden;
+	left:-1000px;
+	top:-1000px;
+	
+	}
+
+.transMenu .content {
+	position:absolute;
+	
+	}
+
+.transMenu .items {
+	position:relative;
+	left:0px; top:0px;
+	z-index:2;
+	}
+
+.transMenu.top .items {
+	border-top:none;
+	}
+
+.transMenu .item {
+    color:#5a5a5a;
+    font-size:10px;
+    font-family:tahoma;
+    text-decoration:none;
+		border:none;
+		cursor:pointer;
+		cursor:hand;
+		text-align:left;
+}
+
+.transMenu .background {
+	position:absolute;
+
+	left:0px; top:0px;
+	z-index:1; 
+	}
+
+.transMenu .shadowRight {
+	position:absolute;
+	z-index:3;
+	top:3px; width:2px;
+	-moz-opacity:.4;
+	opacity:0.4;
+	filter:alpha(opacity=15);
+	}
+
+.transMenu .shadowBottom {
+	position:absolute;
+	z-index:1;
+	left:3px; height:2px;
+	-moz-opacity:.4;
+	opacity:0.4;
+	filter:alpha(opacity=15);
+	}
+
+.transMenu .items {
+	border-left:1px solid #bdbdbd ;
+	border-right:1px solid #bdbdbd ;
+}
+.transMenu .items td {
+	background:none;	
+	border-bottom:1px solid #bdbdbd ;
+}	
+.transMenu .item td {
+	color:#5a5a5a;
+	font-size:11px;
+	font-weight:normal;
+	color:#5a5a5a;
+	
+}
+
+.transMenu .hover td {
+	background:#ffffff;
+	color:#cd2127;
+}
+
+.transMenu .item img {
+	padding-right:5px;
+}
+
+.transMenu .items {
+	width:200px;
+}
